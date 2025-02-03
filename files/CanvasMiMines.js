@@ -13,7 +13,7 @@ function resizeCanvas() {
     const availableWidth = maxCanvasWidth - totalSpacing; // Доступная ширина для прямоугольников
 
     rectWidth = availableWidth / gridSize; // Вычисляем ширину прямоугольников
-    rectHeight = rectWidth * (6 / 5); // Высота с соотношением 5:7
+    rectHeight = rectWidth * (5 / 5); // Высота с соотношением 5:7
     spacing = totalSpacing / (gridSize - 1); // Отступ между прямоугольниками
 
     // Рассчитываем высоту канваса на основе высоты прямоугольников
@@ -35,7 +35,7 @@ starImg.src = "CardStar.svg";
 // Кастомизируемые переменные
 let gridSize = 5;           // Размер сетки (количество прямоугольников в ряду/столбце)
 let rectWidth = 50;         // Ширина прямоугольника с соотношением 7:5
-let rectHeight = 70;        // Высота прямоугольника
+let rectHeight = 50;        // Высота прямоугольника
 let spacing = 5;           // Отступы между прямоугольниками
 let pieceColor = '#0168CF'; // Цвет прямоугольников и частиц
 let flipDuration = 500;     // Время анимации переворота в миллисекундах
